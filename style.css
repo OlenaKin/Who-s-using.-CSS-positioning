@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+  
+  }
+  
+  
+  /* Header Styling */
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    color: #fff;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+  
+  .header-container {
+    max-width: 1200px;
+    width: 100%;
+    height: 54px;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+    margin: 0 auto;
+    color: #f0f0f0;
+    padding: 0px;
+    margin-bottom: 20px;
+  
+  }
+  
+  .header-list {
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    gap: 35px;
+    padding: 5px 20px;
+  
+  }
+  
+  
+  .logo-link {
+    margin-left: auto;
+    width: 238px;
+    height: 54px;
+  
+  }
+  
+  .language {
+    font-family: "Tourney", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #000000;
+    padding-top: 10px;
+  
+  }
+  
+  .nav-links {
+    font-family: "Staatliches", sans-serif;
+    ;
+    font-weight: 400;
+    font-size: 22px;
+    color: black;
+    padding-top: 10px;
+  }
+  
+  main {
+    margin-top: 100px;
+    /* Height of the fixed header */
+  }
+  
+  .card- {
+    padding-top: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  /*.flip-card,
+  .flip-card2
+  .flip-card3 {
+      background-color: transparent;
+      width: 270px;
+      height: 180px;
+      border: 1px solid transparent;
+      margin: 30px;
+      /*perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  
+  
+  /* This container is needed to position the front and back side */
+  
+  
+  
+  
+  /*next*/
+  .flip-card {
+    background-color: transparent;
+    width: 23%;
+    /* Adjust width to fit 4 columns with some gap */
+    margin: 1% 1%;
+    /* Adjust margin for spacing between columns */
+    float: left;
+    /* Float the cards to the left to form columns */
+    background-color: transparent;
+    width: 270px;
+    height: 180px;
+    border: 1px solid transparent;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+    
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+    border-radius: 4px;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+  
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+  .card-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    padding: 30px
+  }
